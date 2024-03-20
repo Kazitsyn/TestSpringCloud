@@ -4,11 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a3346214-24e4-47d6-907a-b7e5b9c940d4" name="Changes" comment="add module">
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testJWTServer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testJWTServer/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testOAuth2Res/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testOAuth2Res/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testSpring/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testSpring/pom.xml" afterDir="false" />
+    <list default="true" id="a3346214-24e4-47d6-907a-b7e5b9c940d4" name="Changes" comment="maven">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testJWTServer/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/testJWTServer/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testOAuth2Res/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/testOAuth2Res/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testSpring/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/testSpring/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testSpringDataJPA/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/testSpringDataJPA/src/main/resources/application.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,28 +37,41 @@
       </MavenImportingSettings>
     </option>
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
+  </component>
   <component name="ProjectId" id="2ddqLTc8jCpdr9lJxz23Z03Qpno" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Администратор/Documents/Spring/SpringGr4462/Seminar9/HardHomeWorkSeminar8&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Users/Администратор/Documents/Spring/SpringGr4462/Seminar9/HardHomeWorkSeminar8",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Администратор\Documents\Spring\demoOAuth2" />
       <recent name="C:\Users\Администратор\Documents\Spring\demoOAuth2\testOAuth2Res" />
     </key>
   </component>
-  <component name="RunManager" selected="Compound.3-module">
+  <component name="RunManager" selected="Application.Resource">
+    <configuration name="1-eureka" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.example.eurekaserver.EurekaServerApplication" />
+      <module name="eureka-server" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="JWT" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="com.example.testJWTServer.TestJwtServerApplication" />
       <module name="testJWTServer" />
@@ -72,6 +86,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="apigetway" type="Application" factoryName="Application">
+      <option name="ALTERNATIVE_JRE_PATH" value="17" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.example.task_1_1.Task11Application" />
+      <module name="Task_1_1" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="zClient" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="com.example.testSpring.ModuleOAuth2ClientApplication" />
       <module name="testSpring" />
@@ -82,6 +105,14 @@
     <configuration name="3-module" type="CompoundRunConfigurationType">
       <toRun name="JWT" type="Application" />
       <toRun name="Resource" type="Application" />
+      <toRun name="zClient" type="Application" />
+      <method v="2" />
+    </configuration>
+    <configuration name="All" type="CompoundRunConfigurationType">
+      <toRun name="1-eureka" type="Application" />
+      <toRun name="JWT" type="Application" />
+      <toRun name="Resource" type="Application" />
+      <toRun name="apigetway" type="Application" />
       <toRun name="zClient" type="Application" />
       <method v="2" />
     </configuration>
@@ -105,9 +136,12 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.1-eureka" />
+      <item itemvalue="Application.apigetway" />
       <item itemvalue="Application.JWT" />
       <item itemvalue="Application.Resource" />
       <item itemvalue="Application.zClient" />
+      <item itemvalue="Compound.All" />
       <item itemvalue="Compound.OAuth2" />
       <item itemvalue="Compound.3-module" />
       <item itemvalue="Docker.mynotes-db" />
@@ -157,7 +191,14 @@
       <option name="project" value="LOCAL" />
       <updated>1710959910791</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="maven">
+      <created>1710962682671</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1710962682671</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -165,7 +206,8 @@
     <MESSAGE value="complete" />
     <MESSAGE value="complete password" />
     <MESSAGE value="add module" />
-    <option name="LAST_COMMIT_MESSAGE" value="add module" />
+    <MESSAGE value="maven" />
+    <option name="LAST_COMMIT_MESSAGE" value="maven" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

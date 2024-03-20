@@ -17,6 +17,9 @@ spring:
             client-authorization-method: client_secret_basic
             redirect-uri: "{baseUrl}/login/oauth2/code/{registrationId}"
             scope: user.read,openid
+  application:
+    name: Client-server
+
 logging:
   level:
     org:

@@ -16,8 +16,12 @@ spring:
 #              redirect-uris: http://127.0.0.1:8082/oauth2/authorization/reg-client
               scopes: user.read, user.write, openid
               client-authentication-methods: client_secret_basic
+  application:
+    name: Server-JWT
+
 logging:
   level:
     org:
       springframework:
         security: trace
+
