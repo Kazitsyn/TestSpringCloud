@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a3346214-24e4-47d6-907a-b7e5b9c940d4" name="Changes" comment="complete password">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" />
+    <list default="true" id="a3346214-24e4-47d6-907a-b7e5b9c940d4" name="Changes" comment="add module">
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testJWTServer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testJWTServer/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testOAuth2Res/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testOAuth2Res/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testSpring/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testSpring/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -150,15 +150,22 @@
       <option name="project" value="LOCAL" />
       <updated>1710441899166</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="add module">
+      <created>1710959910791</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1710959910791</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add module" />
     <MESSAGE value="conf 3 module" />
     <MESSAGE value="complete" />
     <MESSAGE value="complete password" />
-    <option name="LAST_COMMIT_MESSAGE" value="complete password" />
+    <MESSAGE value="add module" />
+    <option name="LAST_COMMIT_MESSAGE" value="add module" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
