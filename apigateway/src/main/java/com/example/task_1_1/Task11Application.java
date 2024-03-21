@@ -16,8 +16,8 @@ public class Task11Application {
     @Bean
     public RouteLocator customRouteLocator(RouteLocatorBuilder builder) {
         return builder.routes()
-                .route("Microservice1",r->r.path("/serviceA/**")
-                        .uri("http://localhost:8081/"))
-                .route("Microservice2",r->r.path("/serviceB/**")
-                        .uri("http://localhost:8082/")).build();}
+                .route("Microservice1",r->r.path("/testJPA/**")
+                        .uri("http://127.0.0.1:8075/"))
+                .route("Microservice2",r->r.path("/testJWT/**")
+                        .uri("http://127.0.0.1:8082/")).build();}
 }
